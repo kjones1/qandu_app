@@ -121,7 +121,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'EST'
 
 USE_I18N = True
 
@@ -136,6 +136,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(MAIN_DIR, 'static'),)
 STATIC_ROOT = 'staticfiles'
-LOGIN_URL = '/user/login'
+LOGIN_URL = '/user/login/'
 LOGIN_REDIRECT_URL = '/question/'
 SITE_ID = 1
